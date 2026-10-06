@@ -1,0 +1,26 @@
+{
+  "name": "edvyro-internship-api",
+  "version": "1.0.0",
+  "description": "EdVyro Full Stack Development Task 3 - REST API and Persistent Data with Express and SQLite",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "seed": "node seed.js",
+    "seed:fresh": "node seed.js --fresh",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "edvyro",
+    "express",
+    "sqlite",
+    "rest-api",
+    "crud"
+  ],
+  "author": "EdVyro Task 3 Submission",
+  "license": "ISC",
+  "dependencies": {
+    "better-sqlite3": "^13.0.3",
+    "express": "^5.2.1"
+  }
+}
